@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DUMMY</title>
+</head>
+<body>
+    <h1 id="judul">ijazah</h1>
+    <button id="btnubah">Ternyata</button>
+    <script>
+        const judul = document.getElementById('judul');
+    const tombol = document.getElementById('btnubah');
+
+    tombol.addEventListener('click', () => {
+      judul.textContent = 'Teknology Kayu';
+      judul.style.color = 'purple';
+      judul.style.fontSize = '2rem';
+    });
+
+    </script>
+</body>
+</html>
